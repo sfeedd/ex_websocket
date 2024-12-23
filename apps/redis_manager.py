@@ -2,4 +2,4 @@
 import redis
 
 def get_redis_connection():
-    return redis.StrictRedis(host='localhost', port=6379, db=0)
+    return redis.StrictRedis(host='ws', port=8000, db=0)
